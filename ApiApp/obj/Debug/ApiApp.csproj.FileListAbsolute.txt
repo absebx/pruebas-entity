@@ -45,3 +45,7 @@ E:\proyectos\PruebaEntity-2015\ApiApp\obj\Debug\ApiApp.pdb
 E:\proyectos\PruebaEntity-2015\ApiApp\bin\System.Web.Cors.dll
 E:\proyectos\PruebaEntity-2015\ApiApp\bin\System.Web.Http.Cors.dll
 E:\proyectos\PruebaEntity-2015\ApiApp\bin\System.Web.Http.Cors.xml
+E:\proyectos\PruebaEntity-2015\ApiApp\bin\PruebaEntity-2015.exe
+E:\proyectos\PruebaEntity-2015\ApiApp\bin\EntityFramework.dll
+E:\proyectos\PruebaEntity-2015\ApiApp\bin\PruebaEntity-2015.pdb
+E:\proyectos\PruebaEntity-2015\ApiApp\bin\EntityFramework.xml
