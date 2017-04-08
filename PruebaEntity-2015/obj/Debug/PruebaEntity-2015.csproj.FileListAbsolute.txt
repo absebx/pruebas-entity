@@ -1,1 +1,10 @@
 E:\proyectos\PruebaEntity-2015\PruebaEntity-2015\bin\Debug\PruebaEntity-2015.exe.config
+E:\proyectos\PruebaEntity-2015\PruebaEntity-2015\bin\Debug\PruebaEntity-2015.exe
+E:\proyectos\PruebaEntity-2015\PruebaEntity-2015\bin\Debug\PruebaEntity-2015.pdb
+E:\proyectos\PruebaEntity-2015\PruebaEntity-2015\bin\Debug\EntityFramework.dll
+E:\proyectos\PruebaEntity-2015\PruebaEntity-2015\bin\Debug\EntityFramework.SqlServer.dll
+E:\proyectos\PruebaEntity-2015\PruebaEntity-2015\bin\Debug\EntityFramework.xml
+E:\proyectos\PruebaEntity-2015\PruebaEntity-2015\bin\Debug\EntityFramework.SqlServer.xml
+E:\proyectos\PruebaEntity-2015\PruebaEntity-2015\obj\Debug\PruebaEntity-2015.csprojResolveAssemblyReference.cache
+E:\proyectos\PruebaEntity-2015\PruebaEntity-2015\obj\Debug\PruebaEntity-2015.exe
+E:\proyectos\PruebaEntity-2015\PruebaEntity-2015\obj\Debug\PruebaEntity-2015.pdb

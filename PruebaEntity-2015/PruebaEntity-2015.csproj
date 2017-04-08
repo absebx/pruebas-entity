@@ -33,14 +33,17 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
@@ -52,21 +55,21 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BOARD.cs">
-      <DependentUpon>ToDoModel.tt</DependentUpon>
+      <DependentUpon>ToDoModel1.tt</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="REL_TICKET_HAS_STATUS.cs">
-      <DependentUpon>ToDoModel.tt</DependentUpon>
+      <DependentUpon>ToDoModel1.tt</DependentUpon>
     </Compile>
     <Compile Include="STATUS.cs">
-      <DependentUpon>ToDoModel.tt</DependentUpon>
+      <DependentUpon>ToDoModel1.tt</DependentUpon>
     </Compile>
     <Compile Include="sysdiagrams.cs">
-      <DependentUpon>ToDoModel.tt</DependentUpon>
+      <DependentUpon>ToDoModel1.tt</DependentUpon>
     </Compile>
     <Compile Include="TICKET.cs">
-      <DependentUpon>ToDoModel.tt</DependentUpon>
+      <DependentUpon>ToDoModel1.tt</DependentUpon>
     </Compile>
     <Compile Include="ToDoModel.Context.cs">
       <AutoGen>True</AutoGen>
@@ -83,8 +86,13 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ToDoModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="ToDoModel1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ToDoModel1.tt</DependentUpon>
+    </Compile>
     <Compile Include="USER.cs">
-      <DependentUpon>ToDoModel.tt</DependentUpon>
+      <DependentUpon>ToDoModel1.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -108,6 +116,11 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>ToDoModel.edmx</DependentUpon>
       <LastGenOutput>ToDoModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="ToDoModel1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>ToDoModel1.cs</LastGenOutput>
+      <DependentUpon>ToDoModel.edmx</DependentUpon>
     </Content>
   </ItemGroup>
   <ItemGroup>
