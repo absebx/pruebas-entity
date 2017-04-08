@@ -5,10 +5,12 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using ApiApp.Models;
+using System.Web.Http.Cors;
 
 
 namespace ApiApp.Controllers
 {
+    [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class UserController : ApiController
     {
 

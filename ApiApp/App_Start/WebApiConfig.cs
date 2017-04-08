@@ -12,6 +12,9 @@ namespace ApiApp
         {
             // Configuración y servicios de API web
 
+            //habilitar Access-Control-Allow-Origin (cors)
+            config.EnableCors();
+
             // Rutas de API web
             config.MapHttpAttributeRoutes();
 
