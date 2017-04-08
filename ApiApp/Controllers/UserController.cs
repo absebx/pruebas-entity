@@ -6,10 +6,12 @@ using System.Net.Http;
 using System.Web.Http;
 using ApiApp.Models;
 
+
 namespace ApiApp.Controllers
 {
     public class UserController : ApiController
     {
+
         User[] users = new User[]
         {
             new User { Id = 1, Name = "Halfonso"},
@@ -19,7 +21,7 @@ namespace ApiApp.Controllers
 
         public IEnumerable<User> GetAllUsers()
         {
-            return users;
+                return users;
         }
 
         public IHttpActionResult GetUser(int id)
