@@ -8,3 +8,5 @@ E:\proyectos\PruebaEntity-2015\PruebaEntity-2015\bin\Debug\EntityFramework.SqlSe
 E:\proyectos\PruebaEntity-2015\PruebaEntity-2015\obj\Debug\PruebaEntity-2015.csprojResolveAssemblyReference.cache
 E:\proyectos\PruebaEntity-2015\PruebaEntity-2015\obj\Debug\PruebaEntity-2015.exe
 E:\proyectos\PruebaEntity-2015\PruebaEntity-2015\obj\Debug\PruebaEntity-2015.pdb
+E:\proyectos\PruebaEntity-2015\PruebaEntity-2015\bin\Debug\Models.dll
+E:\proyectos\PruebaEntity-2015\PruebaEntity-2015\bin\Debug\Models.pdb

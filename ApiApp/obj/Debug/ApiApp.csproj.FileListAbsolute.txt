@@ -49,3 +49,7 @@ E:\proyectos\PruebaEntity-2015\ApiApp\bin\PruebaEntity-2015.exe
 E:\proyectos\PruebaEntity-2015\ApiApp\bin\EntityFramework.dll
 E:\proyectos\PruebaEntity-2015\ApiApp\bin\PruebaEntity-2015.pdb
 E:\proyectos\PruebaEntity-2015\ApiApp\bin\EntityFramework.xml
+E:\proyectos\PruebaEntity-2015\ApiApp\bin\Models.dll
+E:\proyectos\PruebaEntity-2015\ApiApp\bin\Models.pdb
+E:\proyectos\PruebaEntity-2015\ApiApp\bin\EntityFramework.SqlServer.dll
+E:\proyectos\PruebaEntity-2015\ApiApp\bin\EntityFramework.SqlServer.xml

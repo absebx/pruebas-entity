@@ -4,9 +4,9 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
-using ApiApp.Models;
 using System.Web.Http.Cors;
 using PruebaEntity_2015;
+using Models;
 
 namespace ApiApp.Controllers
 {
@@ -14,16 +14,12 @@ namespace ApiApp.Controllers
     public class UserController : ApiController
     {
 
-        User[] users = new User[]
-        {
-            new User { Id = 1, Name = "Halfonso"},
-            new User { Id = 2, Name = "Halfons"},
-            new User { Id = 2, Name = "Laravel"}
-        };
+        User[] users = new User[] { };
+        PruebaEntity_2015.UserController control = new PruebaEntity_2015.UserController();
 
         public IEnumerable<User> GetAllUsers()
         {
-                return users;
+                return control.getAll();
         }
 
         public IHttpActionResult GetUser(int id)
